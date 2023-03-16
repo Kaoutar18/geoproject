@@ -19,7 +19,7 @@ import java.util.List;
 @Service(value = "service1")
 @Profile("prod")
 public class StudentServiceImpl implements  StudentService {
-private final static Logger LOG= LoggerFactory.getLogger(StudentServiceImpl.class);
+    private final static Logger LOG= LoggerFactory.getLogger(StudentServiceImpl.class);
 
     private StudentRepository repository;
     private  StudentMapper mapper;
@@ -33,7 +33,7 @@ private final static Logger LOG= LoggerFactory.getLogger(StudentServiceImpl.clas
 
     @Override
     public Long save(StudentDto dto) {
-LOG.debug("start debug save{}", dto);
+        LOG.debug("start debug save{}", dto);
         StudentEntity e=mapper.convertToEntity(dto);
         return  repository.save(e);
     }
@@ -43,7 +43,7 @@ LOG.debug("start debug save{}", dto);
     {
         LOG.debug("start debug update{}", dto);
         StudentEntity e=mapper.convertToEntity(dto);
-    return repository.update(e);
+        return repository.update(e);
 
     }
 

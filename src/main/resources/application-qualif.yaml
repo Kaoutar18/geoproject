@@ -1,17 +1,19 @@
-spring:
-  profiles:
-    active: local
-
-
 server:
   port: 8087
 
-  spring :
-    datasource:
-      driver-class-name : com.mysql.jdbc.driver
-      url: jdbc:mysql://localhost:3306/pfe
-      username : root
-      password : root
-      jpa :
-        database : mysql
-        show-sql : true
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/pfe
+    username: root
+    password: root
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+logging:
+  level:
+    org.springframework.web: DEBUG
+    ma.pfe: DEBUG
+    org.hibernate: ERROR
