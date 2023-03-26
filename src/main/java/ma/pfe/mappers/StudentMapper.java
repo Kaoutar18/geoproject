@@ -1,29 +1,38 @@
 package ma.pfe.mappers;
 
-import ma.pfe.dtos.StudentDto;
-import ma.pfe.dtos.StudentDto;
+import ma.pfe.Models.StudentDto;
 import ma.pfe.entities.StudentEntity;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
 import java.util.List;
-@Component
+import java.util.stream.Collectors;
+
+@Component(value = "mapper1")
 
 public class StudentMapper {
     public StudentEntity convertToEntity (StudentDto dto)
     {
-        return  null;
+        StudentEntity studentEntity = new StudentEntity();
+        //studentEntity.setStudentId(new StudentId(dto.getId(),""));
+        studentEntity.setName(dto.getName());
+        return studentEntity;
 
     }
     public   StudentDto convertToDto (StudentEntity e)
     {
-        return  null;
+        StudentDto dto = new StudentDto();
+        //dto.setId(studentEntity.getStudentId().getId());
+        dto.setName(e.getName());
+        return dto;
     }
-    public   List<StudentEntity> convertToEntities (List<StudentDto> Dto)
+
+    public List<StudentDto> studentEntiesToDtos (List<StudentEntity>entities)
     {
-        return  null;
-    }
-    public List<StudentDto> convertToDto (List<StudentEntity>entities)
-    {
-        return  null;
+        if(entities!=null&&!entities.isEmpty()){
+            return entities.stream().map(studentEntity -> convertToDto(studentEntity)).collect(Collectors.toList());
+        }else {
+            return new ArrayList<>();
+        }
     }
 }

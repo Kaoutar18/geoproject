@@ -1,13 +1,13 @@
 package ma.pfe.services;
 
 
-import ma.pfe.dtos.StudentDto;
+import ma.pfe.Models.StudentDto;
 
 import java.util.List;
 
 public interface StudentService {
     Long save(StudentDto dto);
-    Boolean update(StudentDto dto);
+    long update(StudentDto dto);
     Boolean deleteById(Long id);
     List <StudentDto>SelectAll();
 

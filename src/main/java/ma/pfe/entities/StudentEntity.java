@@ -1,32 +1,55 @@
 package ma.pfe.entities;
 
+import javax.persistence.*;
+
+// @Embeddable @EmbeddedId
+@Entity
+@Inheritance(strategy = InheritanceType.JOINED)
+
 public class StudentEntity {
-    public void setId(Long id) {
-        this.id = id;
+
+    @EmbeddedId
+    private StudentId studentId;
+
+    @Column(name = "name_student")
+    private String name;
+
+    @Embedded
+    @AttributeOverrides({
+            @AttributeOverride(name="rue",column = @Column(name = "rue_student")),
+            @AttributeOverride(name="avenue",column = @Column(name = "avenue_student"))
+    })
+    private Adresse adresse;
+
+    public Adresse getAdresse() {
+        return adresse;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setAdresse(Adresse adresse) {
+        this.adresse = adresse;
     }
 
+    public StudentId getStudentId() {
+        return studentId;
+    }
 
-    private Long id;
-
-    public Long getId() {
-        return id;
+    public void setStudentId(StudentId studentId) {
+        this.studentId = studentId;
     }
 
     public String getName() {
         return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     @Override
     public String toString() {
-        return "Entity{" +
-                "id=" + id +
+        return "StudentEntity{" +
+                "studentId=" + studentId +
                 ", name='" + name + '\'' +
                 '}';
     }
-
-    private String name;
 }
