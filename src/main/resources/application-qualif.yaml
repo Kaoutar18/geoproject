@@ -6,7 +6,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/pfe
     username: root
-    password: root
+    password:
   jpa:
     database: mysql
     show-sql: true
@@ -15,5 +15,5 @@ spring:
 logging:
   level:
     org.springframework.web: DEBUG
-    ma.pfe: DEBUG
+    ma.geo.local: DEBUG
     org.hibernate: ERROR

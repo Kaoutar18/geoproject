@@ -23,24 +23,24 @@ public class StudentControllers {
 
     private StudentService Service;
   @PostMapping
-  public Long save(StudentDto dto){
-      LOGGER.debug("start save method ");
+  public Long save(@RequestBody StudentDto dto){
+      LOGGER.debug("start save method {} ",dto);
 
-      return Service.save(dto);
+      return (Long) Service.save(dto);
   }
 @PutMapping
-  public Boolean update(StudentDto dto)
+  public Boolean update(@RequestBody StudentDto dto)
   {
-      LOGGER.debug("start update method ");
+      LOGGER.debug("start update method {} ",dto);
 
       return Service.update(dto);
   }
 @DeleteMapping("/{id}")
-    public Boolean delete(Long id)
+    public Boolean delete(@PathVariable("ids") Long id)
 {LOGGER.debug("start delete method ");
 
     return Service.deleteById(id);
-}@GetMapping
+  }@GetMapping
     public List<StudentDto>SelectAll()
     {LOGGER.debug("start select All method ");
 

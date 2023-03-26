@@ -5,13 +5,10 @@ import ma.pfe.dtos.StudentDto;
 import ma.pfe.entities.StudentEntity;
 import ma.pfe.mappers.StudentMapper;
 import ma.pfe.repositorises.StudentRepository;
-import ma.pfe.repositorises.StudentRepositoryImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Profile;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -32,7 +29,7 @@ public class StudentServiceImpl implements  StudentService {
 
 
     @Override
-    public Long save(StudentDto dto) {
+    public Object save(StudentDto dto) {
         LOG.debug("start debug save{}", dto);
         StudentEntity e=mapper.convertToEntity(dto);
         return  repository.save(e);
@@ -43,20 +40,25 @@ public class StudentServiceImpl implements  StudentService {
     {
         LOG.debug("start debug update{}", dto);
         StudentEntity e=mapper.convertToEntity(dto);
-        return repository.update(e);
+        return repository.(e);
 
     }
 
     @Override
     public Boolean deleteById(Long id) {
+        return null;
+    }
+
+    @Override
+    public Boolean deleteById(long id) {
         LOG.debug("start debug dalete{}",id);
-        return repository.delete(id);
+        return repository.deleteById(id);
     }
 
     @Override
     public List<StudentDto> SelectAll() {
         LOG.debug("start debug SELECTALL{}");
-        List<StudentEntity>l=repository.SelectAll();
+        List<StudentEntity>l=repository.();
         List<StudentDto>ld=mapper.convertToDto(l);
         return ld;
 

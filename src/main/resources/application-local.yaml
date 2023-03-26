@@ -15,4 +15,4 @@ spring:
 
 logging:
   level:
-    ma.pfe: INFO
+    ma.geo.local: INFO

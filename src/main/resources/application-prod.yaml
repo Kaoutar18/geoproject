@@ -1,24 +1,12 @@
 server:
   port: 8086
 
-  spring :
-    datasource:
-      driver-class-name : com.mysql.jdbc.driver
-      url: jdbc:mysql//localhost:3306/pfe
-      username : root
-      password : root
-
-
-
-server:
-  port: 8086
-
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/pfe
     username: root
-    password: root
+    password:
   jpa:
     database: mysql
     show-sql: true
@@ -27,7 +15,7 @@ spring:
 logging:
   level:
     org.springframework: INFO
-    ma.pfe: ERROR
+    ma.geo.local: ERROR
     org.hibernate: ERROR
     org.apache: ERROR
     com.zaxxer: ERROR

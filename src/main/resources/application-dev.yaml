@@ -1,4 +1,3 @@
-
 server:
   port: 8083
 
@@ -7,7 +6,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/pfe
     username: root
-    password: root
+    password:
   jpa:
     database: mysql
     show-sql: true
@@ -15,6 +14,6 @@ spring:
       ddl-auto: create
 logging:
   level:
-    org.springframework.web: DEBUG
-    ma.pfe: DEBUG
+    org.springframework.web: debug
+    ma.geo.local: DEBUG
     org.hibernate: ERROR
