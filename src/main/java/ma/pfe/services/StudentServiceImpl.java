@@ -3,6 +3,7 @@ package ma.pfe.services;
 
 
 import ma.pfe.Models.StudentDto;
+import ma.pfe.entities.StudentEntity;
 import ma.pfe.mappers.StudentMapper;
 import ma.pfe.repositorises.StudentRepository;
 import org.slf4j.Logger;
@@ -29,10 +30,11 @@ public class StudentServiceImpl implements  StudentService {
 
 
     @Override
-    public Long save(StudentDto dto) {
+    public StudentEntity save(StudentDto dto) {
         LOG.debug("start debug save{}", dto);
-        StudentDto re = mapper.convertToDto(repository.save(mapper.convertToEntity(dto)));
-        return re.getId();
+        StudentEntity e=mapper.convertToEntity((dto));
+      StudentEntity st=repository.save(e);
+        return st;
     }
 
     @Override

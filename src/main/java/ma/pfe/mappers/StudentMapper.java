@@ -16,15 +16,18 @@ public class StudentMapper {
         StudentEntity studentEntity = new StudentEntity();
         //studentEntity.setStudentId(new StudentId(dto.getId(),""));
         studentEntity.setName(dto.getName());
-        return studentEntity;
+        studentEntity.setId((dto.getId()));
+       return studentEntity;
+
 
     }
     public   StudentDto convertToDto (StudentEntity e)
     {
         StudentDto dto = new StudentDto();
-        //dto.setId(studentEntity.getStudentId().getId());
-        dto.setName(e.getName());
-        return dto;
+        dto.setId(e.getId());
+      dto.setName(e.getName());
+       return dto;
+
     }
 
     public List<StudentDto> studentEntiesToDtos (List<StudentEntity>entities)

@@ -1,5 +1,10 @@
 package ma.pfe.entities;
 
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
+
+@Entity
+@DiscriminatorValue("mn")
 public class Mineur  extends StudentEntity{
 
 

@@ -4,15 +4,30 @@ import javax.persistence.*;
 
 // @Embeddable @EmbeddedId
 @Entity
-@Inheritance(strategy = InheritanceType.JOINED)
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@Table(name = "T_students")
+//@DiscriminatorColumn(name = "C_TAYPE_Student")
+//@DiscriminatorValue("s")
 
 public class StudentEntity {
 
-    @EmbeddedId
-    private StudentId studentId;
-
+   // @EmbeddedId
+  //  private StudentId studentId;
+    @Id
+    @Column(name = "id_student")
+   private  long id;
     @Column(name = "name_student")
     private String name;
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+
 
     @Embedded
     @AttributeOverrides({
@@ -29,13 +44,9 @@ public class StudentEntity {
         this.adresse = adresse;
     }
 
-    public StudentId getStudentId() {
-        return studentId;
-    }
 
-    public void setStudentId(StudentId studentId) {
-        this.studentId = studentId;
-    }
+
+
 
     public String getName() {
         return name;
@@ -48,7 +59,7 @@ public class StudentEntity {
     @Override
     public String toString() {
         return "StudentEntity{" +
-                "studentId=" + studentId +
+                "studentId=" + id +
                 ", name='" + name + '\'' +
                 '}';
     }
