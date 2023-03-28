@@ -1,0 +1,626 @@
+2023-03-28 01:06:19,896 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h28s359ms521µs800ns).
+2023-03-28 16:57:46,539 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15h51m32s692ms910µs400ns).
+2023-03-28 19:51:08,723 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h31m51s865ms965µs199ns).
+2023-03-28 19:54:13,494 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-28 19:54:13,513 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-03-28 19:54:13,525 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-03-28 19:54:36,256 INFO org.springframework.boot.StartupInfoLogger [main] Starting PFEApplication using Java 19.0.1 on DESKTOP-JKKEFG3 with PID 19136 (C:\Users\user\Downloads\TP_Maven\target\classes started by user in C:\Users\user\Downloads\TP_Maven)
+2023-03-28 19:54:36,272 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2023-03-28 19:54:39,903 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-28 19:54:40,065 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 136 ms. Found 1 JPA repository interfaces.
+2023-03-28 19:54:42,296 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2023-03-28 19:54:42,338 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8083"]
+2023-03-28 19:54:42,340 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-28 19:54:42,341 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-03-28 19:54:42,716 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-28 19:54:42,719 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 6148 ms
+2023-03-28 19:54:43,242 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-03-28 19:54:43,702 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class com.mysql.jdbc.JDBC4Connection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2023-03-28 19:54:43,707 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-03-28 19:54:46,385 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-28 19:54:48,726 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-28 19:54:49,034 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 11 mappings in 'requestMappingHandlerMapping'
+2023-03-28 19:54:51,633 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-03-28 19:54:52,035 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2023-03-28 19:54:52,089 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2023-03-28 19:54:52,114 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-03-28 19:54:52,808 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8083"]
+2023-03-28 19:54:53,073 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8083 (http) with context path ''
+2023-03-28 19:54:53,736 INFO org.springframework.boot.StartupInfoLogger [main] Started PFEApplication in 18.771 seconds (JVM running for 20.667)
+2023-03-28 19:54:53,743 INFO ma.pfe.PFEApplication [main] Access URLs:
+----------------------------------------------------------
+	Local: 		http://127.0.0.1:8083/swagger-ui/#/
+	External: 	http://192.168.40.1:8083/swagger-ui/#/
+----------------------------------------------------------
+2023-03-28 19:55:08,103 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8083-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28 19:55:08,104 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-28 19:55:08,105 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8083-exec-1] Detected StandardServletMultipartResolver
+2023-03-28 19:55:08,107 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8083-exec-1] Detected AcceptHeaderLocaleResolver
+2023-03-28 19:55:08,112 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8083-exec-1] Detected FixedThemeResolver
+2023-03-28 19:55:08,115 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8083-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3f12676
+2023-03-28 19:55:08,116 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8083-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@6bec566e
+2023-03-28 19:55:08,117 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-03-28 19:55:08,119 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-1] Completed initialization in 14 ms
+2023-03-28 19:55:08,164 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-1] GET "/swagger-resources/configuration/ui", parameters={}
+2023-03-28 19:55:08,180 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-1] Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2023-03-28 19:55:08,233 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-1] Using 'application/json', given [application/json] and supported [application/json]
+2023-03-28 19:55:08,304 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-1] Writing [springfox.documentation.swagger.web.UiConfiguration@2fe3e693]
+2023-03-28 19:55:08,354 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-1] Completed 200 OK
+2023-03-28 19:55:08,365 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-2] GET "/swagger-resources/configuration/security", parameters={}
+2023-03-28 19:55:08,366 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-2] Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2023-03-28 19:55:08,369 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-2] Using 'application/json', given [application/json] and supported [application/json]
+2023-03-28 19:55:08,377 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-2] Writing [springfox.documentation.swagger.web.SecurityConfiguration@2cafae22]
+2023-03-28 19:55:08,379 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-2] Completed 200 OK
+2023-03-28 19:55:08,388 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-3] GET "/swagger-resources", parameters={}
+2023-03-28 19:55:08,406 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-3] Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2023-03-28 19:55:08,409 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-3] Using 'application/json', given [application/json] and supported [application/json]
+2023-03-28 19:55:08,411 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-3] Writing [[springfox.documentation.swagger.web.SwaggerResource@43e1b854]]
+2023-03-28 19:55:08,417 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-3] Completed 200 OK
+2023-03-28 19:55:08,490 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-4] GET "/v2/api-docs", parameters={}
+2023-03-28 19:55:08,491 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-4] Mapped to springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)
+2023-03-28 19:55:08,798 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-4] Using 'application/json', given [application/json, */*] and supported [application/json, application/hal+json]
+2023-03-28 19:55:08,803 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-4] Writing [springfox.documentation.spring.web.json.Json@7eb94309]
+2023-03-28 19:55:08,806 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-4] Completed 200 OK
+2023-03-28 19:55:20,495 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-7] POST "/students", parameters={}
+2023-03-28 19:55:20,496 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-7] Mapped to ma.pfe.controllers.StudentControllers#save(StudentDto)
+2023-03-28 19:55:20,574 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-7] Read "application/json;charset=UTF-8" to [Students{id=0, name='string'}]
+2023-03-28 19:55:20,584 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-7] Failed to complete request: java.lang.NullPointerException: Cannot invoke "ma.pfe.services.StudentService.save(ma.pfe.Models.StudentDto)" because "this.studentService" is null
+2023-03-28 19:55:20,590 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8083-exec-7] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "ma.pfe.services.StudentService.save(ma.pfe.Models.StudentDto)" because "this.studentService" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "ma.pfe.services.StudentService.save(ma.pfe.Models.StudentDto)" because "this.studentService" is null
+	at ma.pfe.controllers.StudentControllers.save(StudentControllers.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-03-28 19:55:20,598 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-7] "ERROR" dispatch for POST "/error", parameters={}
+2023-03-28 19:55:20,603 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-7] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-03-28 19:55:20,610 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-7] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-28 19:55:20,611 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-7] Writing [{timestamp=Tue Mar 28 19:55:20 WET 2023, status=500, error=Internal Server Error, path=/students}]
+2023-03-28 19:55:20,618 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-7] Exiting from "ERROR" dispatch, status 500
+2023-03-28 19:58:30,352 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-28 19:58:30,358 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-03-28 19:58:30,366 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-03-28 19:58:45,011 INFO org.springframework.boot.StartupInfoLogger [main] Starting PFEApplication using Java 19.0.1 on DESKTOP-JKKEFG3 with PID 12456 (C:\Users\user\Downloads\TP_Maven\target\classes started by user in C:\Users\user\Downloads\TP_Maven)
+2023-03-28 19:58:45,018 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2023-03-28 19:58:48,249 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-28 19:58:48,403 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 124 ms. Found 1 JPA repository interfaces.
+2023-03-28 19:58:50,186 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2023-03-28 19:58:50,210 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8083"]
+2023-03-28 19:58:50,211 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-28 19:58:50,212 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-03-28 19:58:50,422 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-28 19:58:50,424 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5181 ms
+2023-03-28 19:58:50,642 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-03-28 19:58:51,061 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class com.mysql.jdbc.JDBC4Connection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2023-03-28 19:58:51,068 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-03-28 19:58:53,860 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-28 19:58:55,109 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-28 19:58:55,307 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 11 mappings in 'requestMappingHandlerMapping'
+2023-03-28 19:58:55,729 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-03-28 19:58:55,820 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2023-03-28 19:58:55,856 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2023-03-28 19:58:55,870 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-03-28 19:58:56,113 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8083"]
+2023-03-28 19:58:56,246 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8083 (http) with context path ''
+2023-03-28 19:58:56,774 INFO org.springframework.boot.StartupInfoLogger [main] Started PFEApplication in 12.83 seconds (JVM running for 14.372)
+2023-03-28 19:58:56,783 INFO ma.pfe.PFEApplication [main] Access URLs:
+----------------------------------------------------------
+	Local: 		http://127.0.0.1:8083/swagger-ui/#/
+	External: 	http://192.168.40.1:8083/swagger-ui/#/
+----------------------------------------------------------
+2023-03-28 19:59:05,853 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8083-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28 19:59:05,854 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-28 19:59:05,855 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8083-exec-1] Detected StandardServletMultipartResolver
+2023-03-28 19:59:05,855 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8083-exec-1] Detected AcceptHeaderLocaleResolver
+2023-03-28 19:59:05,856 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8083-exec-1] Detected FixedThemeResolver
+2023-03-28 19:59:05,859 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8083-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@501b296a
+2023-03-28 19:59:05,860 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8083-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@35e3f3b8
+2023-03-28 19:59:05,860 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-03-28 19:59:05,863 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-1] Completed initialization in 9 ms
+2023-03-28 19:59:05,893 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-1] GET "/swagger-resources/configuration/ui", parameters={}
+2023-03-28 19:59:05,909 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-1] Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2023-03-28 19:59:05,972 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-1] Using 'application/json', given [application/json] and supported [application/json]
+2023-03-28 19:59:06,060 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-1] Writing [springfox.documentation.swagger.web.UiConfiguration@1669ea5]
+2023-03-28 19:59:06,122 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-1] Completed 200 OK
+2023-03-28 19:59:06,216 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-2] GET "/swagger-resources/configuration/security", parameters={}
+2023-03-28 19:59:06,217 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-2] Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2023-03-28 19:59:06,220 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-2] Using 'application/json', given [application/json] and supported [application/json]
+2023-03-28 19:59:06,230 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-2] Writing [springfox.documentation.swagger.web.SecurityConfiguration@4c80516d]
+2023-03-28 19:59:06,234 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-2] Completed 200 OK
+2023-03-28 19:59:06,245 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-3] GET "/swagger-resources", parameters={}
+2023-03-28 19:59:06,247 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-3] Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2023-03-28 19:59:06,251 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-3] Using 'application/json', given [application/json] and supported [application/json]
+2023-03-28 19:59:06,253 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-3] Writing [[springfox.documentation.swagger.web.SwaggerResource@1540fa09]]
+2023-03-28 19:59:06,262 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-3] Completed 200 OK
+2023-03-28 19:59:06,361 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-4] GET "/v2/api-docs", parameters={}
+2023-03-28 19:59:06,362 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-4] Mapped to springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)
+2023-03-28 19:59:06,703 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-4] Using 'application/json', given [application/json, */*] and supported [application/json, application/hal+json]
+2023-03-28 19:59:06,708 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-4] Writing [springfox.documentation.spring.web.json.Json@225df680]
+2023-03-28 19:59:06,710 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-4] Completed 200 OK
+2023-03-28 19:59:14,908 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-5] POST "/students", parameters={}
+2023-03-28 19:59:14,910 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-5] Mapped to ma.pfe.controllers.StudentControllers#save(StudentDto)
+2023-03-28 19:59:14,999 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-5] Read "application/json;charset=UTF-8" to [Students{id=0, name='string'}]
+2023-03-28 19:59:15,012 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-5] Failed to complete request: java.lang.NullPointerException: Cannot invoke "ma.pfe.services.StudentService.save(ma.pfe.Models.StudentDto)" because "this.studentService" is null
+2023-03-28 19:59:15,016 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8083-exec-5] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "ma.pfe.services.StudentService.save(ma.pfe.Models.StudentDto)" because "this.studentService" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "ma.pfe.services.StudentService.save(ma.pfe.Models.StudentDto)" because "this.studentService" is null
+	at ma.pfe.controllers.StudentControllers.save(StudentControllers.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-03-28 19:59:15,027 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-5] "ERROR" dispatch for POST "/error", parameters={}
+2023-03-28 19:59:15,031 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-5] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-03-28 19:59:15,036 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-5] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-28 19:59:15,037 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-5] Writing [{timestamp=Tue Mar 28 19:59:15 WET 2023, status=500, error=Internal Server Error, path=/students}]
+2023-03-28 19:59:15,045 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-5] Exiting from "ERROR" dispatch, status 500
+2023-03-28 20:06:34,563 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-28 20:06:34,623 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-03-28 20:06:34,638 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-03-28 20:06:55,732 INFO org.springframework.boot.StartupInfoLogger [main] Starting PFEApplication using Java 19.0.1 on DESKTOP-JKKEFG3 with PID 5160 (C:\Users\user\Downloads\TP_Maven\target\classes started by user in C:\Users\user\Downloads\TP_Maven)
+2023-03-28 20:06:55,765 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2023-03-28 20:06:59,519 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-28 20:06:59,669 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 126 ms. Found 1 JPA repository interfaces.
+2023-03-28 20:07:03,144 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2023-03-28 20:07:03,251 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8083"]
+2023-03-28 20:07:03,256 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-28 20:07:03,257 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-03-28 20:07:03,828 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-28 20:07:03,830 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 7690 ms
+2023-03-28 20:07:04,322 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-03-28 20:07:05,009 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class com.mysql.jdbc.JDBC4Connection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2023-03-28 20:07:05,017 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-03-28 20:07:07,542 ERROR org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Repeated column in mapping for entity: ma.pfe.entities.StudentEntity column: id (should be mapped with insert="false" update="false")
+2023-03-28 20:07:07,543 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Repeated column in mapping for entity: ma.pfe.entities.StudentEntity column: id (should be mapped with insert="false" update="false")
+2023-03-28 20:07:07,544 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-03-28 20:07:07,551 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-03-28 20:07:07,555 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-28 20:07:07,577 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-28 20:07:07,621 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Repeated column in mapping for entity: ma.pfe.entities.StudentEntity column: id (should be mapped with insert="false" update="false")
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at ma.pfe.PFEApplication.main(PFEApplication.java:22)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Repeated column in mapping for entity: ma.pfe.entities.StudentEntity column: id (should be mapped with insert="false" update="false")
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 14 common frames omitted
+Caused by: org.hibernate.MappingException: Repeated column in mapping for entity: ma.pfe.entities.StudentEntity column: id (should be mapped with insert="false" update="false")
+	at org.hibernate.mapping.PersistentClass.checkColumnDuplication(PersistentClass.java:862)
+	at org.hibernate.mapping.PersistentClass.checkPropertyColumnDuplication(PersistentClass.java:880)
+	at org.hibernate.mapping.PersistentClass.checkColumnDuplication(PersistentClass.java:902)
+	at org.hibernate.mapping.PersistentClass.validate(PersistentClass.java:634)
+	at org.hibernate.mapping.RootClass.validate(RootClass.java:267)
+	at org.hibernate.boot.internal.MetadataImpl.validate(MetadataImpl.java:354)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:298)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 18 common frames omitted
+2023-03-28 20:07:45,231 INFO org.springframework.boot.StartupInfoLogger [main] Starting PFEApplication using Java 19.0.1 on DESKTOP-JKKEFG3 with PID 21144 (C:\Users\user\Downloads\TP_Maven\target\classes started by user in C:\Users\user\Downloads\TP_Maven)
+2023-03-28 20:07:45,237 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2023-03-28 20:07:47,715 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-28 20:07:47,873 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 136 ms. Found 1 JPA repository interfaces.
+2023-03-28 20:07:49,462 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2023-03-28 20:07:49,481 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8083"]
+2023-03-28 20:07:49,482 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-28 20:07:49,483 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-03-28 20:07:49,644 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-28 20:07:49,644 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4156 ms
+2023-03-28 20:07:49,882 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-03-28 20:07:50,237 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class com.mysql.jdbc.JDBC4Connection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2023-03-28 20:07:50,242 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-03-28 20:07:51,646 ERROR org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Repeated column in mapping for entity: ma.pfe.entities.StudentEntity column: id (should be mapped with insert="false" update="false")
+2023-03-28 20:07:51,648 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Repeated column in mapping for entity: ma.pfe.entities.StudentEntity column: id (should be mapped with insert="false" update="false")
+2023-03-28 20:07:51,650 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-03-28 20:07:51,659 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-03-28 20:07:51,664 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-28 20:07:51,690 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-28 20:07:51,733 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Repeated column in mapping for entity: ma.pfe.entities.StudentEntity column: id (should be mapped with insert="false" update="false")
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at ma.pfe.PFEApplication.main(PFEApplication.java:22)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Repeated column in mapping for entity: ma.pfe.entities.StudentEntity column: id (should be mapped with insert="false" update="false")
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 14 common frames omitted
+Caused by: org.hibernate.MappingException: Repeated column in mapping for entity: ma.pfe.entities.StudentEntity column: id (should be mapped with insert="false" update="false")
+	at org.hibernate.mapping.PersistentClass.checkColumnDuplication(PersistentClass.java:862)
+	at org.hibernate.mapping.PersistentClass.checkPropertyColumnDuplication(PersistentClass.java:880)
+	at org.hibernate.mapping.PersistentClass.checkColumnDuplication(PersistentClass.java:902)
+	at org.hibernate.mapping.PersistentClass.validate(PersistentClass.java:634)
+	at org.hibernate.mapping.RootClass.validate(RootClass.java:267)
+	at org.hibernate.boot.internal.MetadataImpl.validate(MetadataImpl.java:354)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:298)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 18 common frames omitted
+2023-03-28 20:10:53,532 INFO org.springframework.boot.StartupInfoLogger [main] Starting PFEApplication using Java 19.0.1 on DESKTOP-JKKEFG3 with PID 8828 (C:\Users\user\Downloads\TP_Maven\target\classes started by user in C:\Users\user\Downloads\TP_Maven)
+2023-03-28 20:10:53,539 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2023-03-28 20:10:55,953 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-28 20:10:56,087 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 112 ms. Found 1 JPA repository interfaces.
+2023-03-28 20:10:57,813 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2023-03-28 20:10:57,843 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8083"]
+2023-03-28 20:10:57,845 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-28 20:10:57,846 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-03-28 20:10:58,091 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-28 20:10:58,093 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4338 ms
+2023-03-28 20:10:58,284 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-03-28 20:10:58,613 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class com.mysql.jdbc.JDBC4Connection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2023-03-28 20:10:58,618 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-03-28 20:11:00,010 ERROR org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Repeated column in mapping for entity: ma.pfe.entities.StudentEntity column: id (should be mapped with insert="false" update="false")
+2023-03-28 20:11:00,011 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Repeated column in mapping for entity: ma.pfe.entities.StudentEntity column: id (should be mapped with insert="false" update="false")
+2023-03-28 20:11:00,014 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-03-28 20:11:00,043 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-03-28 20:11:00,048 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-28 20:11:00,081 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-28 20:11:00,133 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Repeated column in mapping for entity: ma.pfe.entities.StudentEntity column: id (should be mapped with insert="false" update="false")
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at ma.pfe.PFEApplication.main(PFEApplication.java:22)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Repeated column in mapping for entity: ma.pfe.entities.StudentEntity column: id (should be mapped with insert="false" update="false")
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 14 common frames omitted
+Caused by: org.hibernate.MappingException: Repeated column in mapping for entity: ma.pfe.entities.StudentEntity column: id (should be mapped with insert="false" update="false")
+	at org.hibernate.mapping.PersistentClass.checkColumnDuplication(PersistentClass.java:862)
+	at org.hibernate.mapping.PersistentClass.checkPropertyColumnDuplication(PersistentClass.java:880)
+	at org.hibernate.mapping.PersistentClass.checkColumnDuplication(PersistentClass.java:902)
+	at org.hibernate.mapping.PersistentClass.validate(PersistentClass.java:634)
+	at org.hibernate.mapping.RootClass.validate(RootClass.java:267)
+	at org.hibernate.boot.internal.MetadataImpl.validate(MetadataImpl.java:354)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:298)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 18 common frames omitted
+2023-03-28 20:14:58,615 INFO org.springframework.boot.StartupInfoLogger [main] Starting PFEApplication using Java 19.0.1 on DESKTOP-JKKEFG3 with PID 5756 (C:\Users\user\Downloads\TP_Maven\target\classes started by user in C:\Users\user\Downloads\TP_Maven)
+2023-03-28 20:14:58,621 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2023-03-28 20:15:01,160 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-28 20:15:01,308 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 122 ms. Found 1 JPA repository interfaces.
+2023-03-28 20:15:02,928 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2023-03-28 20:15:02,958 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8083"]
+2023-03-28 20:15:02,960 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-28 20:15:02,962 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-03-28 20:15:03,222 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-28 20:15:03,223 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4352 ms
+2023-03-28 20:15:03,439 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-03-28 20:15:03,816 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class com.mysql.jdbc.JDBC4Connection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2023-03-28 20:15:03,821 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-03-28 20:15:06,157 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-28 20:15:07,329 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-28 20:15:07,529 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 11 mappings in 'requestMappingHandlerMapping'
+2023-03-28 20:15:07,974 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-03-28 20:15:08,058 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2023-03-28 20:15:08,101 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2023-03-28 20:15:08,121 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-03-28 20:15:08,376 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8083"]
+2023-03-28 20:15:08,464 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8083 (http) with context path ''
+2023-03-28 20:15:08,925 INFO org.springframework.boot.StartupInfoLogger [main] Started PFEApplication in 11.365 seconds (JVM running for 12.863)
+2023-03-28 20:15:08,933 INFO ma.pfe.PFEApplication [main] Access URLs:
+----------------------------------------------------------
+	Local: 		http://127.0.0.1:8083/swagger-ui/#/
+	External: 	http://192.168.40.1:8083/swagger-ui/#/
+----------------------------------------------------------
+2023-03-28 20:15:14,041 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8083-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28 20:15:14,118 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-28 20:15:14,119 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8083-exec-1] Detected StandardServletMultipartResolver
+2023-03-28 20:15:14,122 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8083-exec-1] Detected AcceptHeaderLocaleResolver
+2023-03-28 20:15:14,151 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8083-exec-1] Detected FixedThemeResolver
+2023-03-28 20:15:14,155 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8083-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@330d16af
+2023-03-28 20:15:14,157 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8083-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@19d0d1ab
+2023-03-28 20:15:14,157 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-03-28 20:15:14,159 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-1] Completed initialization in 40 ms
+2023-03-28 20:15:14,358 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-1] GET "/swagger-resources/configuration/ui", parameters={}
+2023-03-28 20:15:14,563 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-1] Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2023-03-28 20:15:14,643 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-1] Using 'application/json', given [application/json] and supported [application/json]
+2023-03-28 20:15:14,722 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-1] Writing [springfox.documentation.swagger.web.UiConfiguration@6cf95aff]
+2023-03-28 20:15:14,794 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-1] Completed 200 OK
+2023-03-28 20:15:14,804 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-2] GET "/swagger-resources/configuration/security", parameters={}
+2023-03-28 20:15:14,805 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-2] Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2023-03-28 20:15:14,812 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-2] Using 'application/json', given [application/json] and supported [application/json]
+2023-03-28 20:15:14,820 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-2] Writing [springfox.documentation.swagger.web.SecurityConfiguration@5b492473]
+2023-03-28 20:15:14,824 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-2] Completed 200 OK
+2023-03-28 20:15:14,835 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-3] GET "/swagger-resources", parameters={}
+2023-03-28 20:15:14,836 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-3] Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2023-03-28 20:15:14,837 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-3] Using 'application/json', given [application/json] and supported [application/json]
+2023-03-28 20:15:14,840 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-3] Writing [[springfox.documentation.swagger.web.SwaggerResource@7e8e3fc1]]
+2023-03-28 20:15:14,846 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-3] Completed 200 OK
+2023-03-28 20:15:14,946 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-4] GET "/v2/api-docs", parameters={}
+2023-03-28 20:15:14,947 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-4] Mapped to springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)
+2023-03-28 20:15:15,222 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-4] Using 'application/json', given [application/json, */*] and supported [application/json, application/hal+json]
+2023-03-28 20:15:15,228 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-4] Writing [springfox.documentation.spring.web.json.Json@79ac131b]
+2023-03-28 20:15:15,232 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-4] Completed 200 OK
+2023-03-28 20:15:23,466 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-7] POST "/students", parameters={}
+2023-03-28 20:15:23,468 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-7] Mapped to ma.pfe.controllers.StudentControllers#save(StudentDto)
+2023-03-28 20:15:23,582 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-7] Read "application/json;charset=UTF-8" to [Students{id=0, name='string'}]
+2023-03-28 20:15:23,596 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-7] Failed to complete request: java.lang.NullPointerException: Cannot invoke "ma.pfe.services.StudentService.save(ma.pfe.Models.StudentDto)" because "this.studentService" is null
+2023-03-28 20:15:23,601 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8083-exec-7] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "ma.pfe.services.StudentService.save(ma.pfe.Models.StudentDto)" because "this.studentService" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "ma.pfe.services.StudentService.save(ma.pfe.Models.StudentDto)" because "this.studentService" is null
+	at ma.pfe.controllers.StudentControllers.save(StudentControllers.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-03-28 20:15:23,609 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-7] "ERROR" dispatch for POST "/error", parameters={}
+2023-03-28 20:15:23,613 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-7] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-03-28 20:15:23,618 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-7] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-28 20:15:23,619 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-7] Writing [{timestamp=Tue Mar 28 20:15:23 WET 2023, status=500, error=Internal Server Error, path=/students}]
+2023-03-28 20:15:23,627 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-7] Exiting from "ERROR" dispatch, status 500
+2023-03-28 20:22:04,934 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-28 20:22:04,939 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-03-28 20:22:04,951 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-03-28 20:22:14,241 INFO org.springframework.boot.StartupInfoLogger [main] Starting PFEApplication using Java 19.0.1 on DESKTOP-JKKEFG3 with PID 4604 (C:\Users\user\Downloads\TP_Maven\target\classes started by user in C:\Users\user\Downloads\TP_Maven)
+2023-03-28 20:22:14,247 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2023-03-28 20:22:16,618 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-28 20:22:16,754 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 113 ms. Found 1 JPA repository interfaces.
+2023-03-28 20:22:18,369 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2023-03-28 20:22:18,396 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8083"]
+2023-03-28 20:22:18,398 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-28 20:22:18,399 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-03-28 20:22:18,586 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-28 20:22:18,587 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4117 ms
+2023-03-28 20:22:18,809 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-03-28 20:22:19,148 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class com.mysql.jdbc.JDBC4Connection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2023-03-28 20:22:19,154 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-03-28 20:22:21,207 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-28 20:22:22,746 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-28 20:22:22,939 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 11 mappings in 'requestMappingHandlerMapping'
+2023-03-28 20:22:23,367 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-03-28 20:22:23,459 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2023-03-28 20:22:23,496 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2023-03-28 20:22:23,509 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-03-28 20:22:23,720 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8083"]
+2023-03-28 20:22:23,814 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8083 (http) with context path ''
+2023-03-28 20:22:24,285 INFO org.springframework.boot.StartupInfoLogger [main] Started PFEApplication in 11.04 seconds (JVM running for 12.371)
+2023-03-28 20:22:24,292 INFO ma.pfe.PFEApplication [main] Access URLs:
+----------------------------------------------------------
+	Local: 		http://127.0.0.1:8083/swagger-ui/#/
+	External: 	http://192.168.40.1:8083/swagger-ui/#/
+----------------------------------------------------------
+2023-03-28 20:22:26,756 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8083-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28 20:22:26,757 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-28 20:22:26,758 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8083-exec-1] Detected StandardServletMultipartResolver
+2023-03-28 20:22:26,759 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8083-exec-1] Detected AcceptHeaderLocaleResolver
+2023-03-28 20:22:26,765 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8083-exec-1] Detected FixedThemeResolver
+2023-03-28 20:22:26,767 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8083-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1832b0f6
+2023-03-28 20:22:26,768 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8083-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@7cb38a6a
+2023-03-28 20:22:26,769 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-03-28 20:22:26,769 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-1] Completed initialization in 11 ms
+2023-03-28 20:22:26,788 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-1] GET "/swagger-resources/configuration/ui", parameters={}
+2023-03-28 20:22:26,798 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-1] Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2023-03-28 20:22:26,830 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-1] Using 'application/json', given [application/json] and supported [application/json]
+2023-03-28 20:22:26,898 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-1] Writing [springfox.documentation.swagger.web.UiConfiguration@5608da60]
+2023-03-28 20:22:26,954 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-1] Completed 200 OK
+2023-03-28 20:22:26,973 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-2] GET "/swagger-resources/configuration/security", parameters={}
+2023-03-28 20:22:26,974 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-2] Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2023-03-28 20:22:26,986 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-2] Using 'application/json', given [application/json] and supported [application/json]
+2023-03-28 20:22:27,003 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-2] Writing [springfox.documentation.swagger.web.SecurityConfiguration@10e180dd]
+2023-03-28 20:22:27,006 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-2] Completed 200 OK
+2023-03-28 20:22:27,022 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-3] GET "/swagger-resources", parameters={}
+2023-03-28 20:22:27,024 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-3] Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2023-03-28 20:22:27,025 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-3] Using 'application/json', given [application/json] and supported [application/json]
+2023-03-28 20:22:27,029 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-3] Writing [[springfox.documentation.swagger.web.SwaggerResource@780345fb]]
+2023-03-28 20:22:27,039 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-3] Completed 200 OK
+2023-03-28 20:22:27,179 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-4] GET "/v2/api-docs", parameters={}
+2023-03-28 20:22:27,181 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-4] Mapped to springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)
+2023-03-28 20:22:27,579 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-4] Using 'application/json', given [application/json, */*] and supported [application/json, application/hal+json]
+2023-03-28 20:22:27,583 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-4] Writing [springfox.documentation.spring.web.json.Json@450de27c]
+2023-03-28 20:22:27,586 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-4] Completed 200 OK
+2023-03-28 20:22:36,280 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-7] POST "/students", parameters={}
+2023-03-28 20:22:36,283 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-7] Mapped to ma.pfe.controllers.StudentControllers#save(StudentDto)
+2023-03-28 20:22:36,381 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-7] Read "application/json;charset=UTF-8" to [Students{id=0, name='string'}]
+2023-03-28 20:22:36,890 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-7] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-28 20:22:36,890 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-7] Writing [StudentEntity{studentId=0, name='string'}]
+2023-03-28 20:22:36,895 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-7] Completed 200 OK
+2023-03-28 20:39:57,249 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-9] GET "/swagger-resources/configuration/ui", parameters={}
+2023-03-28 20:39:57,251 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-9] Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2023-03-28 20:39:57,253 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-9] Using 'application/json', given [application/json] and supported [application/json]
+2023-03-28 20:39:57,255 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-9] Writing [springfox.documentation.swagger.web.UiConfiguration@5608da60]
+2023-03-28 20:39:57,257 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-9] Completed 200 OK
+2023-03-28 20:39:57,269 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-10] GET "/swagger-resources/configuration/security", parameters={}
+2023-03-28 20:39:57,270 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-10] Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2023-03-28 20:39:57,271 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-10] Using 'application/json', given [application/json] and supported [application/json]
+2023-03-28 20:39:57,272 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-10] Writing [springfox.documentation.swagger.web.SecurityConfiguration@10e180dd]
+2023-03-28 20:39:57,274 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-10] Completed 200 OK
+2023-03-28 20:39:57,282 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-1] GET "/swagger-resources", parameters={}
+2023-03-28 20:39:57,283 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-1] Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2023-03-28 20:39:57,285 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-1] Using 'application/json', given [application/json] and supported [application/json]
+2023-03-28 20:39:57,286 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-1] Writing [[springfox.documentation.swagger.web.SwaggerResource@7c5ec013]]
+2023-03-28 20:39:57,290 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-1] Completed 200 OK
+2023-03-28 20:39:57,402 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-2] GET "/v2/api-docs", parameters={}
+2023-03-28 20:39:57,403 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8083-exec-2] Mapped to springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)
+2023-03-28 20:39:57,420 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8083-exec-2] Using 'application/json', given [application/json, */*] and supported [application/json, application/hal+json]
+2023-03-28 20:39:57,421 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8083-exec-2] Writing [springfox.documentation.spring.web.json.Json@344e6f4b]
+2023-03-28 20:39:57,425 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8083-exec-2] Completed 200 OK
