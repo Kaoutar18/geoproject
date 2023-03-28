@@ -1,6 +1,4 @@
-package ma.pfe.dtos;
-
-import org.springframework.context.annotation.Primary;
+package ma.pfe.Models;
 
 public class StudentDto {
     public Long getId() {
